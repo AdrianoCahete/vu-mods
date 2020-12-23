@@ -7,7 +7,7 @@ assignees: AdrianoCahete
 
 ---
 
-<-- 
+<!-- **IMPORTANT!**  
 
 Delete this comment block after filling the template. The template accepts markdown on body.  
 Leave the `[MOD-NEW]` before the title and add your mod name after.  
