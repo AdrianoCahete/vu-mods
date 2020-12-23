@@ -16,10 +16,10 @@ Leave the `[MOD-UPDATE]` before the title and add your mod's name after.
 
 -->
 
-```
+
 ---
 title: Your mod name
 releaseStatus: beta
 version: 0.5
 ---
-```
+
