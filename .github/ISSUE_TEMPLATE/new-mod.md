@@ -1,6 +1,6 @@
 ---
 name: New Mod
-about: Fill the template to add your new mod
+about: Issue to ADD or UPDATE a Mod on the Index.
 title: "[MOD-NEW]"
 labels: mod-new
 assignees: AdrianoCahete
@@ -11,6 +11,7 @@ assignees: AdrianoCahete
 
 Delete this comment block after filling the template. The template accepts markdown on body.  
 Leave the `[MOD-NEW]` before the title and add your mod name after.  
+To Update mod, change the title to `[MOD-UPDATE]` and just fill the update values.
 
 - `title` and `description` are strings. You don't need to put between quotes. Description is a small description.
 - `releaseStatus` is the status of the mod. `alpha`, `beta` or `released` are accept.
