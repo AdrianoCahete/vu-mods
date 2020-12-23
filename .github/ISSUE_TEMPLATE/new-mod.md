@@ -25,6 +25,7 @@ There's no "default" values. If you doesn't fill the value, the key will be igno
 
 -->
 
+```
 ---
 title: Your mod name
 description: Your description
@@ -44,3 +45,4 @@ If the installation is different than the default (unzip the archive to mods fol
 
 # Support the Author
 If you want to ask for some support, you can do in this body too.
+```
