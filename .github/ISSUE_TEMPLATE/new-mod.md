@@ -13,10 +13,11 @@ Delete this comment block after filling the template. The template accepts markd
 Leave the `[MOD-NEW]` before the title and add your mod name after.  
 To Update mod, change the title to `[MOD-UPDATE]` and just fill in the update values.
 
+** On FrontMatter (header, between the ---): `int` values are unquoted (for now, only the version value). `String` values are quoted.**
+
 - `title` and `description` are strings. You don't need to put between quotes. The description is a small description.
-- `releaseStatus` is the status of the mod. `alpha`, `beta` or `released` are accepted.
-- `type` is the type of mod. Accepts `map`, `admin` and `game`
-- `version` is the mod's version. Accepts any number on version schema (`x.y.z`)
+- `type` is the type of mod. Accepts `map`, `admin` and `gameplay`
+- `version` is the mod's version. Accepts any number on version schema (`x.y`)
 - `sourceUrl` is the URL to mod's source code
 - `author` is the Author nickname.
 - `downloadURL` is the URL to download the mod itself. If you are using some Git service, you can create a `Release` and point to that file.
@@ -28,15 +29,14 @@ There are no "default" values. If you don't fill in the value, the key will be i
 
 ```
 ---
-title: Your mod name
-description: Your description
-releaseStatus: alpha
-type: admin
+title: 'Your mod name'
+description: 'Your description'
+type: 'admin'
 version: 0.1
 author: 'AuthorName'
-sourceUrl: url-to-source-files
-downloadUrl: url-to-zip-files
-faqUrl: url-to-venice-unleashed-thread
+sourceUrl: 'url-to-source-files'
+downloadUrl: 'url-to-zip-files'
+faqUrl: 'url-to-venice-unleashed-thread'
 ---
    
 # Requirements
