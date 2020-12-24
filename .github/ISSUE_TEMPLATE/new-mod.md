@@ -34,11 +34,14 @@ type: admin
 version: 0.1
 sourceUrl: url-to-source-files
 downloadUrl: url-to-zip-files
-faqURL: url-to-venice-unleashed-thread
+faqUrl: url-to-venice-unleashed-thread
 ---
    
 # Requirements
 If your mod has any requirements, like other mods, link them here.  
+
+# Limitations
+Just run on specifc maps? Note it here!
 
 # How to install
 If the installation is different than the default (unzip the archive to mods folder), explain here.
